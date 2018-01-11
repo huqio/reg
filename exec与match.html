@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<input type="text" id="txt">
+</body>
+<script>
+/*	var txt = document.getElementById('txt');
+	txt.onkeyup = function(event){
+		var e = event || window.event;
+		if(e.keyCode == 13){
+			alert('哈哈哈');
+		}
+	}*/
+/*	var str = 'http://localhost:8888/personalCenter.html?form2=http://localhost:8888/IntegralMall/IntegralMallSubmitOrder.html?shipType=1#!resetPaymentCodeStep1';
+	var regExp = /\?form2=(.+)#/;
+	// var form2 =  regExp.exec(str);
+	var form2 = str.match(regExp);*/
+
+	var str = 'jfdk9090fdf90fs09dfds90dsfds90f9';
+	var r = /\d+/g;
+	var num;
+	var arr = [];
+	var arr2 = str.match(r);
+	console.log(arr2);
+	// while(num = r.exec(str)) {
+	// 	arr.push(num[0]);
+	// }
+	// console.log(arr);
+	/*
+	var path = '1.html#/a'
+	var r = /.+#\/(.+)\/?/;
+	var v = r.exec(path);
+	// var v = path.match(r);
+	console.log(v);
+	*/
+
+	/*var str = '2017/11/12';
+	var r = /^(\d+)\/(\d+)\/(\d+)$/;
+	// str = str.replace(r,'$1年$2月$3日');
+	// console.log(str);
+	// 
+	str.replace(r,function(s,g1,g2,g3) {
+		console.log(s);
+		console.log(g1);
+		console.log(g2);
+		console.log(g3);
+	})*/
+
+</script>
+</html>
